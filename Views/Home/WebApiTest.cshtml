@@ -1,0 +1,12 @@
+﻿@model bool
+@{
+    ViewData["Title"] = "Remote";
+}
+
+<h2>Remote</h2>
+
+@Html.CheckBox("chkLED1", Model, new { onchange = "toggleLED1(this)" })
+
+
+
+
